@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CFBundleName</key>
+	<string>Prosetta</string>
+	<key>CFBundleDisplayName</key>
+	<string>Prosetta</string>
+	<key>CFBundleExecutable</key>
+	<string>Prosetta</string>
+	<key>CFBundleIdentifier</key>
+	<string>com.wanggregory.prosetta</string>
+	<key>CFBundleIconFile</key>
+	<string>AppIcon</string>
+	<key>CFBundlePackageType</key>
+	<string>APPL</string>
+	<key>CFBundleShortVersionString</key>
+	<string>0.1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>LSMinimumSystemVersion</key>
+	<string>26.0</string>
+	<key>NSHighResolutionCapable</key>
+	<true/>
+
+	<!-- Shown verbatim in the system permission dialog. -->
+	<key>NSMicrophoneUsageDescription</key>
+	<string>Prosetta listens while you're recording, so it can turn your speech into text and translate it. Audio is transcribed on this Mac and never leaves it.</string>
+	<key>NSSpeechRecognitionUsageDescription</key>
+	<string>Prosetta uses the same speech engine as macOS Dictation to transcribe what you say before translating it. Audio may be sent to Apple's servers for recognition, just as it is when you use Dictation in any other app.</string>
+
+	<!-- Runs as a normal foreground app with a Dock icon — there is no menu-bar-only mode, no
+	     global hotkey, and nothing that needs to hide. -->
+</dict>
+</plist>
