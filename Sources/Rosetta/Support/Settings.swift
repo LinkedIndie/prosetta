@@ -51,6 +51,7 @@ enum Settings {
             "Dothraki",
             "Klingon",
             "Black Speech of Mordor",
+            "LinkedIn",
         ]),
     ]
 
